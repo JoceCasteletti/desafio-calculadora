@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jocelyn Casteletti Sandoval">
+  <meta name="description" content="Crear calculadora">
+  <meta name="keywords" content="calculadora, calculo, multiplicar, sumar.">
+  <link type="text/css" href="./assets/css/style.css" rel="stylesheet">
+</head>
+
+<body onload="init();">
+  <div>
+    <table class="calculadora">
+      <tr>
+        <td colspan="4"><span id="display"></span></td>
+      </tr>
+      <tr>
+        <td><button id="siete" class="numbers" value="7">7</button></td>
+        <td><button id="ocho" class="numbers" value="8">8</button></td>
+        <td><button id="nueve" class="numbers" value="9">9</button></td>
+        <td><button id="division" class="operation" value="/">/</button></td>
+      </tr>
+      <tr>
+        <td><button id="cuatro" class="numbers" value="4">4</button></td>
+        <td><button id="cinco" class="numbers" value="5">5</button></td>
+        <td><button id="seis" class="numbers" value="6">6</button></td>
+        <td><button id="multiplicacion" class="operation" value="*">*</button></td>
+      </tr>
+      <tr>
+        <td><button id="uno" class="numbers" value="1">1</button></td>
+        <td><button id="dos" class="numbers" value="2">2</button></td>
+        <td><button id="tres" class="numbers" value="3">3</button></td>
+        <td><button id="resta" class="operation" value="-">-</button></td>
+      </tr>
+      <tr>
+        <td><button id="igual" class="operation">=</button></td>
+        <td><button id="reset" class="reset">C</button></td>
+        <td><button id="cero" class="numbers" value="0">0</button></td>
+        <td><button id="suma" class="operation" value="+">+</button></td>
+      </tr>
+    </table>
+  </div>
+
+  <script type="text/javascript" src="assets/js/calculadora.js"></script>
+</body>
+
+</html>
