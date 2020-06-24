@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+
+table.calculadora tr:first-child > td {
+  background-color: white;
+  border-radius: 12px;
+  text-align: right;
+  padding: 25px 10px;
+  font-size: xx-large;
+}
+
+.calculadora{
+  display: inline-block;
+  background-color: #6e9e41;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.calculadora td button{
+	width:70px;
+	height: 70px;
+	font-size: 25px;
+}
+
+#resultado{
+	display:block;
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 50px;
+	width:300px;
+  height: 100px;
+  line-height: 100px;
+  background-color:#fff;
+  border-radius: 25px;
+}
